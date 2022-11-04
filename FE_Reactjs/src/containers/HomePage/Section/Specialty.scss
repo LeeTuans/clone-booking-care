@@ -1,0 +1,17 @@
+.specialty-child {
+    cursor: pointer;
+
+    .specialty-name {
+        padding-top: 10px;
+    }
+
+    &:hover {
+        .section-specialty {
+            opacity: 0.9;
+        }
+
+        .specialty-name {
+            color: #45c3d2;
+        }
+    }
+}

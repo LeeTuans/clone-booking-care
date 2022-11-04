@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Crud</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>Email</th>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Action</th>
+        </tr>
+        <% for(let i=0; i < data.length; i++) { %>
+            <tr>
+                <td>
+                    <%=data[i].email %>
+                </td>
+                <td>
+                    <%=data[i].firstName %>
+                </td>
+                <td>
+                    <%=data[i].lastName %>
+                </td>
+                <td>
+                    <a href="/edit-crud?id=<%=data[i].id %>" class="btn-edit" type="buton">Edit</a>
+                </td>
+            </tr>
+            <% } %>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+BE_Nodejs/node_modules
+BE_Nodejs/vendor
+BE_Nodejs/.idea
+BE_Nodejs/.idea/
+BE_Nodejs/.env
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# dependencies
+FE_Reactjs/node_modules
+FE_Reactjs/.pnp
+FE_Reactjs/.pnp.js
+
+# testing
+FE_Reactjs/coverage
+
+# production
+FE_Reactjs/build
+
+# misc
+FE_Reactjs/.env
+FE_Reactjs/.DS_Store
+FE_Reactjs/.env.local
+FE_Reactjs/.env.development.local
+FE_Reactjs/.env.test.local
+FE_Reactjs/.env.production.local
+
+FE_Reactjs/npm-debug.log*
+FE_Reactjs/yarn-debug.log*
+FE_Reactjs/yarn-error.log*
+
+nodejs
